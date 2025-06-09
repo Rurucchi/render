@@ -7,17 +7,17 @@
 @set OUT_DIR=build
 
 :: TRIANGLE
-@set SOURCE=src/render/shader/triangle.hlsl
+@set SOURCE=src/shaders/common/main.hlsl
 
 ::ps
-@set OUT_FXC=triangle.ps.fxc
+@set OUT_FXC=ps.fxc
 @set ENTRY=ps
 @set PROFILE=ps_5_0
 
 fxc /T %PROFILE% /E %ENTRY% /Fo %OUT_DIR%/%OUT_FXC% %SOURCE%
 
 ::vs
-@set OUT_FXC=triangle.vs.fxc
+@set OUT_FXC=vs.fxc
 @set ENTRY=vs
 @set PROFILE=vs_5_0
 

@@ -339,8 +339,8 @@ HRESULT render_load_shaders(render_context* rContext) {
 		{ "TEXCOORD",    0, DXGI_FORMAT_R32G32_FLOAT, 0, offsetof(vertex, uv),    D3D11_INPUT_PER_VERTEX_DATA, 0 },
 	};
 	
-	char vsLocation[] = "triangle.vs.fxc";
-	char psLocation[] = "triangle.ps.fxc";
+	char vsLocation[] = "vs.fxc";
+	char psLocation[] = "ps.fxc";
 	
 	complete_file vblob = {0};
 	complete_file pblob = {0};
