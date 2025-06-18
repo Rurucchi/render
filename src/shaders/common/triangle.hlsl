@@ -10,7 +10,7 @@ cbuffer cbuffer1 : register(b1)	{
 }
 
 // s0 = sampler bound to slot 0
-sampler sampler0 : register(s0);	
+sampler sampler0 : register(s0);
 
 // t0 = shader resource bound to slot 0
 Texture2D<float4> texture0 : register(t0); 

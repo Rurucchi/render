@@ -13,4 +13,10 @@ struct PS_INPUT {
 	float2 uv    : TEXCOORD;
 };
 
+struct light_source {
+	float3 pos;
+	float intensity;
+	float4 color;
+};
+
 #endif // _TYPESH_

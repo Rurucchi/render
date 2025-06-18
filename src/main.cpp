@@ -35,10 +35,6 @@
 #include <d3dcompiler.h>
 #include <dxgidebug.h>
 
-
-
-
-
 // raylib 
 // #define RL_VECTOR2_TYPE
 // #define RL_VECTOR3_TYPE
@@ -71,7 +67,7 @@
 #include "types.h"
 #include "platform/platform.h"
 #include "platform/io.h"
-#include "parser.h"
+#include "asset/parser.h"
 #include "render/render.h"
 #include "render/ui.h"
 
